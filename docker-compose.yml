@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  dispensing:
+    image: openlmis/equipment
+    ports:
+      - "8080:8080"
+    env_file: .env
+    networks:
+      - default
+
+networks:
+  default:
+    name: lesotho-ref-distro_default
+    external: true

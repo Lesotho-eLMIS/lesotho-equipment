@@ -1,0 +1,19 @@
+{
+  "name": "openlmis-template",
+  "version": "0.0.1",
+  "devDependencies": {
+    "raml2html": "~2.4.0",
+    "uuid": "~3.0.0",
+    "raml-parser": "~0.8.0",
+    "command-line-args": "~3.0.0",
+    "system-sleep": "~1.0.0",
+    "deasync": "~0.1.9",
+    "ip": "~1.1.0"
+  },
+  "scripts": {
+    "runApiHtmlConverter": "raml2html --input ./build/resources/main/api-definition-raml.yaml --output ./build/resources/main/api-definition.html"
+  },
+  "files": [
+    "consul/package.json"
+  ]
+}
