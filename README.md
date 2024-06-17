@@ -91,7 +91,7 @@ Before starting the development environment, make sure you have a `.env` file as
 Quick Start instructions.
 
 ```shell
-> docker-compose run --service-ports <your-service-name>
+> docker-compose run --service-ports equipment
 $ gradle clean build
 $ gradle bootRun
 ```
